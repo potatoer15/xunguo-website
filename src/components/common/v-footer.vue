@@ -5,8 +5,8 @@
 				<div class="f-col one">
 					<dl>
 						<dt><img src="../../../static/img/logo.png" alt=""></dt>
-						<dd>{{ $store.state.langPack.footer.tel }}：18138723896</dd>
-						<dd>{{ $store.state.langPack.footer.email }}：partner@feiyou.work</dd>
+						<dd>{{ $store.state.langPack.footer.tel }}：18811835098</dd>
+						<dd>{{ $store.state.langPack.footer.email }}：kefu@xunguogame.com</dd>
 						</dd>
 					</dl>
 				</div>

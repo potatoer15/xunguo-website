@@ -3,7 +3,7 @@ import axios from 'axios'
 import { getState } from '../store/store'
 
 // API 基础路径
-export const sdk = '//sdk.tobs.devx'
+export const sdk = '//api.tobs.work/sdk'
 export const qianyu = '//api.tobs.devx/qianyu'
 
 // 创建 axios 实例
