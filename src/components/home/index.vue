@@ -14,18 +14,18 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <router-link :to="'/games/jhwg'">
-              <img src="../../../static/img/index/carousel_btthk.png" alt="">
+              <img src="../../../static/img/index/carousel_1.png" alt="">
             </router-link>
           </div>
 
           <div class="item">
-            <router-link :to="'/games/fmj16'">
-              <img src="../../../static/img/index/carousel_fmj16.jpg" alt="">
+            <router-link :to="'/games/tmzg'">
+              <img src="../../../static/img/index/carousel_2.png" alt="">
             </router-link>
           </div>
           <div class="item">
-            <router-link :to="'/games/fbt'">
-              <img src="../../../static/img/index/carousel_fbt.jpg" alt="">
+            <router-link :to="'/games/cqbz'">
+              <img src="../../../static/img/index/carousel_3.png" alt="">
             </router-link>
           </div>
 
@@ -101,47 +101,10 @@
         </div>
       </div>
     </div>
-    <!--用户评价-->
+    <!--公司简介-->
     <div class="user-comment">
       <div class="bx">
-        <!--<div class="title">来自用户的评价</div>-->
-        <div class="title">{{ $store.state.langPack.index.userCommentTitle }}</div>
-        <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="content">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-              </div>
-            </div>
-            <div class="item">
-              <div class="content">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-                <img src="../../../static/img/user-comment1.png" alt="...">
-              </div>
-            </div>
-          </div>
-
-          <!-- Controls -->
-          <!--<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>-->
-        </div>
+        <img src="../../../static/img/companyProfile.png" alt="">
       </div>
     </div>
   </div>

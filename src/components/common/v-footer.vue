@@ -7,6 +7,7 @@
 						<dt><img src="../../../static/img/logo.png" alt=""></dt>
 						<dd>{{ $store.state.langPack.footer.tel }}：18811835098</dd>
 						<dd>{{ $store.state.langPack.footer.email }}：kefu@xunguogame.com</dd>
+						<dd>公司地址：广州市天河区中山大道西路6号、8号夹层E56房</dd>
 						</dd>
 					</dl>
 				</div>
@@ -15,9 +16,9 @@
 					<dl>
 						<!--<dt class="have-line">我们的游戏</dt>-->
 						<dt class="have-line">{{ $store.state.langPack.footer.games }}</dt>
-						<dd><router-link to="/games/btthk">{{ $store.state.langPack.footer.g1 }}</router-link></dd>
-						<dd><router-link to="/games/fmj16">{{ $store.state.langPack.footer.g2 }}</router-link></dd>
-						<dd><router-link to="/games/fbt">{{ $store.state.langPack.footer.g3 }}</router-link></dd>
+						<dd><router-link to="/games/cqbz">{{ $store.state.langPack.footer.g1 }}</router-link></dd>
+						<dd><router-link to="/games/jhwg">{{ $store.state.langPack.footer.g2 }}</router-link></dd>
+						<dd><router-link to="/games/tmzg">{{ $store.state.langPack.footer.g3 }}</router-link></dd>
 						<!--<dd><router-link to="">{{$store.state.langPack.footer.g4}}</router-link></dd>-->
 					</dl>
 				</div>
@@ -35,7 +36,15 @@
 
 		<div class="footer-bot">
 			<div class="bx">
-				<div>&copy; HALFBRICK HALFBRICK HALFBRICK HALFBRICK</div>
+				<div>
+					<p style="margin-bottom: 4px;">
+						<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"
+							style="color:inherit; text-decoration:none;">
+							粤B2-20230960 ｜ 粤ICP备2023076166号
+						</a>
+					</p>
+					Copyright &copy; 2023 广州迅果网络科技有限公司 版权所有 All Rights Reserved.
+				</div>
 				<div class="f-right">
 					<!--<div><router-link to="">隐私条款</router-link></div>-->
 					<div><router-link to="">{{ $store.state.langPack.footer.clause }}</router-link></div>

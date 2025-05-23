@@ -5,12 +5,12 @@
 			<img src="../../../static/img/game-bg.jpg" alt="">
 			<div class="title">
 				<p class="p1">Games</p>
-				<p class="p2">做最出色的遊戲</p>
+				<p class="p2">做最出色的游戏</p>
 			</div>
 		</section>
 		<!--游戏列表-->
 		<section class="list container-fluid" v-for="(v, i) in initData"
-			:style="'background:url(../../../static/img/list_bg' + (i % 2) + '.png) no-repeat center top'" :key="i">
+			:style="'background:url(../../../static/img/list_bg' + v.gameKey + '.png) no-repeat center top'" :key="i">
 			<div class="row bx">
 				<div class="col-xs-12 col-sm-3 col-md-2  col-lg-2 ">
 					<!--游戏图片-->

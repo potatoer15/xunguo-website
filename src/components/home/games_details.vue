@@ -186,13 +186,6 @@
 			<div class="user-comment">
 				<div class="title">
 					<div class="txt">用户评价</div>
-					<!--用户评价-轮播控制-->
-					<div class="ctrl">
-						<span class="prov" href="#carousel-example-generic3" data-slide="prev"><i
-								class="fa fa-angle-left"></i></span>
-						<span class="next" href="#carousel-example-generic3" data-slide="next"><i
-								class="fa fa-angle-right"></i></span>
-					</div>
 				</div>
 				<!--用户评价-轮播-->
 				<div id="carousel-example-generic3" class="carousel slide" data-ride="carousel">
@@ -200,30 +193,16 @@
 						<div class="item active">
 							<div class="content">
 								<div class="items">
-									<img src="../../../static/img/user-comment2.png" alt="">
+									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
 								</div>
 								<div class="items">
-									<img src="../../../static/img/user-comment1.png" alt="">
+									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
 								</div>
 								<div class="items">
-									<img src="../../../static/img/user-comment1.png" alt="">
+									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="content">
-								<div class="items">
-									<img src="../../../static/img/user-comment1.png" alt="">
-								</div>
-								<div class="items">
-									<img src="../../../static/img/user-comment2.png" alt="">
-								</div>
-								<div class="items">
-									<img src="../../../static/img/user-comment1.png" alt="">
-								</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
 
