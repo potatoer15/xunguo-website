@@ -47,10 +47,10 @@
 				</div>
 				<div class="f-right">
 					<!--<div><router-link to="">隐私条款</router-link></div>-->
-					<div><router-link to="">{{ $store.state.langPack.footer.clause }}</router-link></div>
+					<div><router-link to="/agreement">{{ $store.state.langPack.footer.clause }}</router-link></div>
 					<div>|</div>
 					<!--<div><router-link to="">使用守则</router-link></div>-->
-					<div><router-link to="">{{ $store.state.langPack.footer.codeOfUse }}</router-link></div>
+					<div><router-link to="/policy">{{ $store.state.langPack.footer.codeOfUse }}</router-link></div>
 				</div>
 			</div>
 		</div>

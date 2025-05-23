@@ -193,13 +193,13 @@
 						<div class="item active">
 							<div class="content">
 								<div class="items">
-									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
+									<img :src="getBgUrl(initData.gameKey)" alt="">
 								</div>
 								<div class="items">
-									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
+									<img :src="getBgUrl(initData.gameKey)" alt="">
 								</div>
 								<div class="items">
-									<img :src="'../../../static/img/user-comment' + initData.gameKey + '.png'" alt="">
+									<img :src="getBgUrl(initData.gameKey)" alt="">
 								</div>
 							</div>
 						</div>
@@ -230,6 +230,13 @@ export default {
 				v.classList.remove('ec-fade-in-b');
 			})
 		}, 1500)
+
+		
+	},
+	methods: {
+		getBgUrl(gameKey) {
+			return `../../../static/img/user-comment${gameKey}.png`;
+		}
 	},
 	created() {
 		//获取游戏键

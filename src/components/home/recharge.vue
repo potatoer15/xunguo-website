@@ -19,10 +19,10 @@
                         <div class="game-title">
                             {{ v.name[langIndex] }}
                         </div>
-                        <div class="recharge-btn">
+                        <!-- <div class="recharge-btn">
                             <router-link :to="{ name: 'rechargeDetail', params: { gameId: v.gameKey } }"
                                 class="btn">充值</router-link>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

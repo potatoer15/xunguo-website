@@ -8,6 +8,8 @@ import game_news from '@/components/home/game_news'//游戏news
 import about from '@/components/home/about'//资讯详情
 import recharge from '@/components/home/recharge'//充值
 import RechargeDetail from '@/components/home/recharge_detail.vue'
+import agreement from '@/components/home/agreement.vue'
+import policy from '@/components/home/policy.vue'
 
 Vue.use(Router)
 
@@ -34,11 +36,11 @@ export default new Router({
 				{ path: '/', component: games }
 			]
 		},
-		{//充值
-			path: '/recharge',
-			name: 'recharge',
-			component: recharge
-		},
+		// {//充值
+		// 	path: '/recharge',
+		// 	name: 'recharge',
+		// 	component: recharge
+		// },
 		{//游戏详情
 			path: '/games/*',
 			component: games_details,
@@ -62,6 +64,17 @@ export default new Router({
 			path: '/recharge/:gameId',
 			name: 'rechargeDetail',
 			component: RechargeDetail
+		},
+		{
+			path: '/agreement',
+			name: 'agreement',
+			component: agreement
+		},
+		{
+			path: '/policy',
+			name: 'policy',
+			component: policy
+			
 		}
 	]
 })

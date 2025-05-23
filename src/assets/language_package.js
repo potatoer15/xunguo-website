@@ -3,7 +3,7 @@ export default {
     header: {
         home: ['首页', '首頁', 'Home'],
         games: ['游戏', '遊戲', 'Games'],
-        recharge: ['充值', '充值', 'Recharge'],
+        // recharge: ['充值', '充值', 'Recharge'],
         careers: ['加入我们', '加入我們', 'Careers'],
         about: ['关于我们', '關於我們', 'about'],
         language: ['语言', '語言', 'Language'],
@@ -24,8 +24,8 @@ export default {
         company: ['公司介绍', '公司介紹', 'Company info'],
         contact: ['联系我们', '聯系我們', 'Contact'],
         careers: ['加入我们', '加入我們', 'Careers'],
-        clause: ['隐私条款', '隱私條款', 'Privacy clause'],
-        codeOfUse: ['使用守则', '使用守則', 'Code of use'],
+        clause: ['隐私协议', '隱私條款', 'Privacy clause'],
+        codeOfUse: ['用户协议', '使用守則', 'Code of use'],
     },
     index: {
         bestGameTitle: ['做最良心的卡牌', '做最好的遊戲', 'Make Best Games'],
