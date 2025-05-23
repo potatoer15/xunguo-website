@@ -103,7 +103,7 @@
     </div>
     <!--公司简介-->
     <div class="user-comment">
-      <div class="bx">
+      <div>
         <img src="../../../static/img/companyProfile.png" alt="">
       </div>
     </div>
@@ -428,7 +428,6 @@ export default {
     // height: 700px;
     font-family: 'Bahnschrift';
     background: #eeeeee;
-    padding-bottom: 2%;
 
     .title {
       text-align: center;

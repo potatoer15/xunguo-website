@@ -175,7 +175,6 @@ export default {
 		width: 100%;
 
 		&>div.bx {
-			padding: 0 22px;
 			height: 50px;
 			display: flex;
 			-webkit-display: flex;
@@ -189,10 +188,6 @@ export default {
 				-webkit-display: flex;
 				-moz-display: flex;
 				-o-display: flex;
-
-				div {
-					margin: 0 6px;
-				}
 			}
 
 			@media screen and (max-width:768px) {
