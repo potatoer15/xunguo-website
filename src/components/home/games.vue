@@ -10,7 +10,7 @@
 		</section>
 		<!--游戏列表-->
 		<section class="list container-fluid" v-for="(v, i) in initData"
-			:style="'background:url(../../../static/img/list_bg' + v.gameKey + '.png) no-repeat center top'" :key="i">
+			:style="{ background: `url(${getBgUrl(v.gameKey)}) no-repeat center top` }" :key="i">
 			<div class="row bx">
 				<div class="col-xs-12 col-sm-3 col-md-2  col-lg-2 ">
 					<!--游戏图片-->
@@ -88,6 +88,11 @@ export default {
 			this.langIndex = '0';
 		}
 	},
+	methods: {
+		getBgUrl(gameKey) {
+			return require(`../../../static/img/list_bg${gameKey}.png`)
+		}
+	}
 }
 </script>
 
