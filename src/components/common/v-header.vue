@@ -82,7 +82,7 @@ export default {
 			navItems: [
 				{ path: '/index', icon: 'fa fa-home', label: 'home' },
 				{ path: '/games', icon: 'fa fa-gamepad', label: 'games' },
-				{ path: '/recharge', icon: 'fa fa-money', label: 'recharge' },
+				// { path: '/recharge', icon: 'fa fa-money', label: 'recharge' },
 				// { path: '/careers', icon: 'fa fa-flag', label: 'careers' },
 				{ path: '/about', icon: 'fa fa-user', label: 'about' }
 			],

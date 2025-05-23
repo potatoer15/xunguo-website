@@ -235,7 +235,7 @@ export default {
 	},
 	methods: {
 		getBgUrl(gameKey) {
-			return `../../../static/img/user-comment${gameKey}.png`;
+			return require(`../../../static/img/user-comment${gameKey}.png`);
 		}
 	},
 	created() {
