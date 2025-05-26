@@ -27,7 +27,11 @@
 						<!--<dt class="have-line">关于我们</dt>-->
 						<dt class="have-line">{{ $store.state.langPack.footer.about }}</dt>
 						<dd><router-link to="/about#step1">{{ $store.state.langPack.footer.company }}</router-link></dd>
-						<!-- <dd><router-link to="/about">{{ $store.state.langPack.footer.contact }}</router-link></dd> -->
+						<dd>
+							<span class="contact-link" style="cursor: pointer; color: #999;" @click="showModal">
+								{{ $store.state.langPack.footer.contact }}
+							</span>
+						</dd>
 						<!-- <dd><router-link to="/careers">{{$store.state.langPack.footer.careers}}</router-link></dd> -->
 					</dl>
 				</div>
@@ -55,6 +59,11 @@
 			</div>
 		</div>
 
+		<a-modal v-model:visible="isModalVisible" :title="null" :footer="null" @cancel="handleCancel"
+			:width="1200">
+			<img src="../../../static/img/contact.png" alt="联系方式图片" style="width: 100%" />
+		</a-modal>
+
 	</div>
 </template>
 
@@ -63,7 +72,16 @@ export default {
 	name: 'v-footer',
 	data() {
 		return {
-			msg: 'Welcome to Your Vue.js App'
+			msg: 'Welcome to Your Vue.js App',
+			isModalVisible: false,
+		}
+	},
+	methods: {
+		showModal() {
+			this.isModalVisible = true;
+		},
+		handleCancel() {
+			this.isModalVisible = false;
 		}
 	}
 }
