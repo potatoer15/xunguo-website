@@ -76,5 +76,14 @@ export default new Router({
 			component: policy
 			
 		}
-	]
+	],
+	scrollBehavior(to, from, savedPosition) {
+		// 如果有保存的滚动位置（浏览器前进后退），保持原位
+		if (savedPosition) {
+			return savedPosition;
+		} else {
+			// 否则跳转时滚动到顶部
+			return { x: 0, y: 0 };
+		}
+	}
 })

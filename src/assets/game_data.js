@@ -126,21 +126,21 @@ const games = {
     //     downloads: '1M+',
     //     imgURL: require('../../static/img/games/fbts_icon.jpg')
     // },
-    cqbz: {
-        gameKey: 'cqbz',
-        name: ['传奇霸主', '21點狂人', '21點狂人'],
-        subTitle: ['热血重燃，霸主归来，再续传奇辉煌', '打造輕博弈遊戲新經典', '打造輕博弈遊戲新經典'],
-        info: [
-            ' 《传奇霸主》是一款经典复古的MMO传奇手游，完美复刻端游精髓，重现热血攻沙、自由PK、爆装打宝的经典玩法！游戏采用怀旧画风，打造原汁原味的战法道三职业体系，技能特效炫酷，打击感爆棚。沙城争霸、野外BOSS、万人跨服战等激情玩法，让玩家体验兄弟并肩作战的快感！装备全凭打怪掉落，交易自由，零氪也能逆袭成神！快来重返玛法大陆，再战沙场，成就你的霸主传奇！',
-            '',
-            '',
-            ' ',
-        ],
-        appleURL: '',
-        googleURL: 'https://play.google.com/store/apps/details?id=com.lavapot.cqbz',
-        downloads: '500k+',
-        imgURL: require('../../static/img/games/cqbz_icon.jpg')
-    },
+    // cqbz: {
+    //     gameKey: 'cqbz',
+    //     name: ['传奇霸主', '21點狂人', '21點狂人'],
+    //     subTitle: ['热血重燃，霸主归来，再续传奇辉煌', '打造輕博弈遊戲新經典', '打造輕博弈遊戲新經典'],
+    //     info: [
+    //         ' 《传奇霸主》是一款经典复古的MMO传奇手游，完美复刻端游精髓，重现热血攻沙、自由PK、爆装打宝的经典玩法！游戏采用怀旧画风，打造原汁原味的战法道三职业体系，技能特效炫酷，打击感爆棚。沙城争霸、野外BOSS、万人跨服战等激情玩法，让玩家体验兄弟并肩作战的快感！装备全凭打怪掉落，交易自由，零氪也能逆袭成神！快来重返玛法大陆，再战沙场，成就你的霸主传奇！',
+    //         '',
+    //         '',
+    //         ' ',
+    //     ],
+    //     appleURL: '',
+    //     googleURL: 'https://play.google.com/store/apps/details?id=com.lavapot.cqbz',
+    //     downloads: '500k+',
+    //     imgURL: require('../../static/img/games/cqbz_icon.jpg')
+    // },
     jhwg: {
         gameKey: 'jhwg',
         name: ['几何王国', '21點狂人', '21點狂人'],
@@ -156,21 +156,21 @@ const games = {
         downloads: '500k+',
         imgURL: require('../../static/img/games/jhwg_icon.jpg')
     },
-    tmzg: {
-        gameKey: 'tmzg',
-        name: ['天命主公', '21點狂人', '21點狂人'],
-        subTitle: ['有策略的对战卡牌游戏', '打造輕博弈遊戲新經典', '打造輕博弈遊戲新經典'],
-        info: [
-            ' 游戏采用精美国风立绘，真实还原三国名将风采，搭配炫酷技能特效，带来沉浸式战斗体验。独创天命系统，让武将觉醒终极战力；多样PVP/PVE玩法，包括竞技场、军团争霸、跨服大战等，考验主公的谋略布局！福利丰厚，登录即送SSR神将，每日送抽卡机会，轻松组建梦之队！马上开启你的三国霸业，成就一代枭雄！',
-            '',
-            '',
-            ' ',
-        ],
-        appleURL: '',
-        googleURL: 'https://play.google.com/store/apps/details?id=com.lavapot.tmzg',
-        downloads: '500k+',
-        imgURL: require('../../static/img/games/tmzg_icon.jpg') 
-    }
+    // tmzg: {
+    //     gameKey: 'tmzg',
+    //     name: ['天命主公', '21點狂人', '21點狂人'],
+    //     subTitle: ['有策略的对战卡牌游戏', '打造輕博弈遊戲新經典', '打造輕博弈遊戲新經典'],
+    //     info: [
+    //         ' 游戏采用精美国风立绘，真实还原三国名将风采，搭配炫酷技能特效，带来沉浸式战斗体验。独创天命系统，让武将觉醒终极战力；多样PVP/PVE玩法，包括竞技场、军团争霸、跨服大战等，考验主公的谋略布局！福利丰厚，登录即送SSR神将，每日送抽卡机会，轻松组建梦之队！马上开启你的三国霸业，成就一代枭雄！',
+    //         '',
+    //         '',
+    //         ' ',
+    //     ],
+    //     appleURL: '',
+    //     googleURL: 'https://play.google.com/store/apps/details?id=com.lavapot.tmzg',
+    //     downloads: '500k+',
+    //     imgURL: require('../../static/img/games/tmzg_icon.jpg') 
+    // }
 
 }
 

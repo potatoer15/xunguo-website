@@ -5,9 +5,9 @@
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <!-- <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> -->
+          <!-- <li data-target="#carousel-example-generic" data-slide-to="1"></li> -->
+          <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
         </ol>
 
         <!-- Wrapper for slides -->
@@ -18,7 +18,7 @@
             </router-link>
           </div>
 
-          <div class="item">
+          <!-- <div class="item">
             <router-link :to="'/games/tmzg'">
               <img src="../../../static/img/index/carousel_2.png" alt="">
             </router-link>
@@ -27,7 +27,7 @@
             <router-link :to="'/games/cqbz'">
               <img src="../../../static/img/index/carousel_3.png" alt="">
             </router-link>
-          </div>
+          </div> -->
 
 
         </div>

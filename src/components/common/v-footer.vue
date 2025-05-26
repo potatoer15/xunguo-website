@@ -16,9 +16,9 @@
 					<dl>
 						<!--<dt class="have-line">我们的游戏</dt>-->
 						<dt class="have-line">{{ $store.state.langPack.footer.games }}</dt>
-						<dd><router-link to="/games/cqbz">{{ $store.state.langPack.footer.g1 }}</router-link></dd>
+						<!-- <dd><router-link to="/games/cqbz">{{ $store.state.langPack.footer.g1 }}</router-link></dd> -->
 						<dd><router-link to="/games/jhwg">{{ $store.state.langPack.footer.g2 }}</router-link></dd>
-						<dd><router-link to="/games/tmzg">{{ $store.state.langPack.footer.g3 }}</router-link></dd>
+						<!-- <dd><router-link to="/games/tmzg">{{ $store.state.langPack.footer.g3 }}</router-link></dd> -->
 						<!--<dd><router-link to="">{{$store.state.langPack.footer.g4}}</router-link></dd>-->
 					</dl>
 				</div>
@@ -27,7 +27,7 @@
 						<!--<dt class="have-line">关于我们</dt>-->
 						<dt class="have-line">{{ $store.state.langPack.footer.about }}</dt>
 						<dd><router-link to="/about#step1">{{ $store.state.langPack.footer.company }}</router-link></dd>
-						<dd><router-link to="/about">{{ $store.state.langPack.footer.contact }}</router-link></dd>
+						<!-- <dd><router-link to="/about">{{ $store.state.langPack.footer.contact }}</router-link></dd> -->
 						<!-- <dd><router-link to="/careers">{{$store.state.langPack.footer.careers}}</router-link></dd> -->
 					</dl>
 				</div>
