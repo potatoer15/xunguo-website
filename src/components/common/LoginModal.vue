@@ -32,6 +32,14 @@
             </a-form>
           </a-tab-pane>
         </a-tabs>
+        <div style="display: flex;justify-content:end;font-size: 12px;">
+          <div><router-link target="_blank" to="/agreement">{{ $store.state.langPack.footer.clause }}</router-link>
+          </div>
+          <div style="margin: 0 10px;">|</div>
+          <!--<div><router-link to="">使用守则</router-link></div>-->
+          <div><router-link target="_blank" to="/policy">{{ $store.state.langPack.footer.codeOfUse }}</router-link>
+          </div>
+        </div>
       </div>
     </div>
   </a-modal>
@@ -184,7 +192,7 @@ export default {
 .login-ad {
   flex-basis: 240px;
   background-color: #eaf2f8;
-  background: linear-gradient(#FFF, #eaf2f8);
+  background: linear-gradient(#0b0b0b, #949ea6);
   margin-right: 20px;
   border-radius: 10px;
   text-align: center;

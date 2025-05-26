@@ -10,7 +10,7 @@
     </section>
     <!--列表介绍-->
     <section class="info-list">
-      <div class="container-fluid">
+      <div class="container-fluid" :style="{ background: `url(${getBgUrl()}) no-repeat center top` }">
         <div class="item  bx">
           <div class="font">
             <div>
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid" style="background:#fff;">
+      <div class="container-fluid" :style="{ background: `url(${getBgUrl()}) no-repeat center top` }">
         <div class="item  bx">
           <div class="img">
             <img src="../../../static/img/about-list2.png" alt="">
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid" :style="{ background: `url(${getBgUrl()}) no-repeat center top` }">
         <div class="item  bx">
           <div class="font">
             <div>
@@ -78,6 +78,7 @@ export default {
     // 初始化地图
     this.initMap()
   },
+ 
   methods: {
     initMap() {
       // 创建地图实例
@@ -93,6 +94,9 @@ export default {
       })
 
       this.map.add(marker)
+    },
+    getBgUrl() {
+      return require(`../../../static/img/about-bg.png`)
     }
   }
 }
