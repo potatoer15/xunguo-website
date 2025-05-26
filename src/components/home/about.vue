@@ -75,26 +75,9 @@ export default {
     }
   },
   mounted() {
-    // 初始化地图
-    this.initMap()
   },
  
   methods: {
-    initMap() {
-      // 创建地图实例
-      this.map = new AMap.Map('container', {
-        zoom: 15,
-        center: [113.330014, 23.138132] // 广州天河区坐标
-      })
-
-      // 添加标记点
-      const marker = new AMap.Marker({
-        position: [113.330014, 23.138132],
-        title: '公司位置'
-      })
-
-      this.map.add(marker)
-    },
     getBgUrl() {
       return require(`../../../static/img/about-bg.png`)
     }
