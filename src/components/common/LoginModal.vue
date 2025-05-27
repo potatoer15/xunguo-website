@@ -148,12 +148,12 @@ export default {
 
         // 3. 获取用户信息
         const userInfo = await auth.getUserInfo()
-        const userinfoAndCoupon = await auth.getUserInfoAndCoupon()
+        // const userinfoAndCoupon = await auth.getUserInfoAndCoupon()
 
         // 4. 存储用户信息
         this.$store.commit('setUserInfo', {
           ...userInfo,
-          coupon: userinfoAndCoupon.coupon
+          // coupon: userinfoAndCoupon.coupon
         })
 
         // 5. 发送登录成功事件

@@ -233,12 +233,12 @@ export default {
                         this.$message.success('支付成功')
                         this.isModalVisible = false
                         // 这里可以添加刷新用户余额等操作
-                        const userinfoAndCoupon = await auth.getUserInfoAndCoupon()
+                        // const userinfoAndCoupon = await auth.getUserInfoAndCoupon()
 
                         // 4. 存储用户信息
                         this.$store.commit('setUserInfo', {
                             ...getState('userInfo'),
-                            coupon: userinfoAndCoupon.coupon
+                            // coupon: userinfoAndCoupon.coupon
                         })
                     }
                 } catch (error) {

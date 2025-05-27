@@ -45,8 +45,8 @@
 						<template v-if="isLoggedIn">
 							<li class="user-info">
 								<span>{{ $store.state.userInfo.nickName }}</span>
-								<span style="color: #f74a15; margin-left: 20px;"><i class="fa fa-money"></i>{{
-									$store.state.userInfo.coupon }}</span>
+								<!-- <span style="color: #f74a15; margin-left: 20px;"><i class="fa fa-money"></i>{{
+									$store.state.userInfo.coupon }}</span> -->
 								<a-button type="link" @click="handleLogout">退出</a-button>
 							</li>
 						</template>
